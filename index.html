@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organick - Healthy Food Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="#" class="navbar__logo">
+                <img src="./assets/logo.svg" alt="Organick Logo">
+            </a>
+            <nav class="navbar__nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="navbar__actions">
+                <div class="navbar__cart">
+                    <a href="#">
+                        <img src="./assets/cart_icon.svg" alt="Cart Icon">
+                        <span>Cart (0)</span>
+                    </a>
+                </div>
+            </div>
+            <button class="navbar__mobile-toggle" aria-label="Open menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <span class="section-tag-alt">100% Natural Food</span>
+                    <h1>Choose the best healthier way of life</h1>
+                    <a href="#" class="btn btn-primary">Explore Now <img src="./assets/arrow.svg" alt="Arrow"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo">
+            <div class="container promo__container">
+                <div class="promo-card promo-card--fruits">
+                    <div class="promo-card__content">
+                        <span class="section-tag-alt">Natural!!</span>
+                        <h3>Get Garden Fresh Fruits</h3>
+                    </div>
+                </div>
+                <div class="promo-card promo-card--veg">
+                    <div class="promo-card__content">
+                        <span class="section-tag-alt">Offer!!</span>
+                        <h3>Get 10% off on Vegetables</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container about-us__container">
+                <div class="about-us__image">
+                    <img src="./assets/fresh_fruit.png" alt="Fresh fruits in a pile">
+                </div>
+                <div class="about-us__content">
+                    <span class="section-tag-alt">About Us</span>
+                    <h2>We Believe in Working Accredited Farmers</h2>
+                    <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <ul class="about-us__list">
+                        <li>
+                            <div class="list-icon"><img src="./assets/organic_icon.svg" alt="Organic Food Icon"></div>
+                            <div>
+                                <h4>Organic Foods Only</h4>
+                                <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon"><img src="./assets/quality_icon.svg" alt="Quality Standards Icon"></div>
+                            <div>
+                                <h4>Quality Standards</h4>
+                                <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-dark">Shop Now <img src="./assets/arrow.svg" alt="Arrow"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="products__header">
+                    <span class="section-tag-alt">Categories</span>
+                    <h2>Our Products</h2>
+                </div>
+                <div class="product-grid">
+                </div>
+                <div class="products__footer">
+                    <a href="#" id="load-more-btn" class="btn btn-dark">Load More <img src="./assets/arrow.svg" alt="Arrow"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial">
+            <div class="container testimonial__container">
+                <span class="section-tag-alt">Testimonial</span>
+                <h2>What Our Customer Saying?</h2>
+                <img src="./assets/sara_avatar.svg" alt="Customer Sara Taylor" class="testimonial__photo">
+                <div class="rating">★★★★★</div>
+                <p class="testimonial__quote">Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <h4 class="testimonial__name">Sara Taylor</h4>
+                <p class="testimonial__role">Consumer</p>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="container offer__container">
+                <div class="offer__header">
+                    <div>
+                        <span class="section-tag-alt">Offer</span>
+                        <h2>We Offer Organic For You</h2>
+                    </div>
+                    <a href="#" class="btn btn-primary">View All Products <img src="./assets/arrow.svg" alt="Arrow"></a>
+                </div>
+                <div class="product-grid">
+                </div>
+            </div>
+        </section>
+        
+       
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
